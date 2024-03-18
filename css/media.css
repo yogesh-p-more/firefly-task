@@ -1,0 +1,69 @@
+@media only screen and (max-width: 1260px) {
+
+    .cus-navbar .menu-list ul li{margin-right: 2.5rem;}
+    .cus-navbar .menu-list ul li:last-child{margin-right: 0;}
+
+    .achivment .boxes .box .achiv-text{margin-top: 15rem;}
+    /* achivment section close  */
+
+    .footer-mainbox .box1 .inner2 .text2{font-size: 3rem;}
+}
+
+@media only screen and (max-width: 1023px){
+    .container{width: 90%;}
+
+    .achivment .boxes{display: block;}
+    .achivment .boxes .box{margin: 0 1rem;}
+    .custext{display: none !important;}
+
+
+    .partner .our-logos .add-margin{margin-top: 0;}
+    .partner .our-logos .ourlogo{width: 30%;}
+
+
+    .bg-heading1::after, .bg-heading::after{font-size: 8rem;width: 100%;}
+
+
+
+
+    /* header  */
+    .menu-list{position: absolute;top: 0;left: 0;bottom: 0;right: 0;background: rgba(0, 0, 0, .9);height: 100vh;display: flex;align-items: center;justify-content: center;text-align: center;transition: all .5s ease;transform: translateX(100%);}
+    .menu-list.active{transform: translate(0);}
+    .cus-navbar .menu-list ul li{display: block;font-size: 2rem;font-weight: 600; color: #FECD2E;margin-right: 0;margin-top: 1.5rem;}
+    .cus-navbar .menu-list ul li:first-child{margin-top: 0;}
+    .cus-navbar .regi-btn{    position: fixed;right: 0;left: 0;bottom: 0;width: 100%;background-color: #000;display: flex;justify-content: center;padding: 1rem 0;}
+    .header{background: rgba(0, 0, 0, 0.8);}
+    .menu-icon, .close-icon{display: block;font-size: 3rem;color: #fff;}
+    .close-icon{position: fixed;top: 3rem;right: 3rem;font-size: 4rem;}
+
+
+    /* banner section  */
+    .banner-section{margin-top: 10.6rem;}
+
+    .footer-mainbox .box1 .inner3 p br{display: none;}
+    .qr-img{transform: rotate(90deg);display: flex;justify-content: center;margin: 0 auto;}
+    .footer-mainbox .box1 .inner2 .text2{right: 2rem;}
+    .footer-mainbox .box1{padding: 2rem;}
+    .footer-mainbox .box1 .inner2 .text2{font-size: 3rem;}
+}
+
+@media only screen and (max-width: 767px){
+    .clients .video-box{display: block !important;}
+
+
+    
+}
+
+@media only screen and (max-width: 500px){
+    
+    .achivment .boxes .box .achiv-text{margin-top: 4rem;}
+
+    .partner .our-logos{width: 100%;}
+    .partner .our-logos .ourlogo{width: 30%;}
+
+
+    .bg-heading1::after, .bg-heading::after{font-size: 6rem;width: 100%;}
+
+
+   
+}
